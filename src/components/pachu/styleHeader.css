@@ -1,0 +1,22 @@
+.containerHeader{
+    background-color: rgb(0, 0, 0); 
+    width: 204vh;
+    margin: 0;
+    padding: 0;
+    
+}
+.containerHeader ul{
+    list-style-type: none; /*esconde los marcadores*/
+    margin: 0;
+    padding: 0;
+}
+li{
+    display:inline-block;
+}
+li a{
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 25px;
+}

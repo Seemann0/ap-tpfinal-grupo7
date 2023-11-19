@@ -1,0 +1,87 @@
+.Calculadora {
+    height: 70vh;
+    width: 50vh;
+    position: relative;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(155deg, rgb(19, 13, 140) 35%, rgba(26, 144, 250, 1) 100%);
+    display: grid;
+    border-radius: 3%;
+    align-items: center;
+    justify-items: center;
+    padding: 5%;
+    border: rgb(69, 69, 123) solid;
+    flex-wrap: wrap;
+    /* IMPORTANTE PARA EVITAR LOS DESBORDES */
+}
+
+.Calculadora input {
+    background-color: #fefeff24;
+    border-radius: 10%;
+    border-bottom-color: #0c8cfb80;
+    border-right-color: #0c8bfbb9;
+    border-left-color: #1a91fa51;
+    border-top-color: #1a91fa29;
+    margin-bottom: 10%;
+    width: 40VH;
+    height: 5vh;
+}
+
+.Calculadora button {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(155deg, rgba(29, 25, 98, 0.671) 35%, rgb(2, 81, 154) 100%);
+    border-color: #fefeff2d;
+    margin: 1%;
+    width: 10VH;
+    height: 10vh;
+    display: inline;
+}
+.containerbuttons { /* contenedor de todos los botones general */
+    display: flex;
+}
+
+.containerNumbers { /* contenedor de todos los botones de numeros */
+    display: inline-block;
+    flex-wrap: wrap;
+    position: relative;
+    width: 40vh;
+   
+}
+
+.groupNumberTop, /* contenedor de todos los botones de numeros  3 en 3*/
+.groupNumberMiddle,
+.groupNumberBottom,
+.topVisor,
+.containerOperation {
+    display: inline-flex;
+    margin: 0.5%;
+}
+
+.containerOperation { /* contenedor de todos los botones de operación */
+    display: block;
+    flex-wrap: wrap;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 90%;
+
+}
+
+.containerOperation button {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(155deg, rgba(29, 25, 98, 0.671) 35%, rgb(2, 81, 154) 100%);
+    border-color: #fefeff2d;
+    margin: 1%;
+    width: 10VH;
+    height: 10vh;
+    display: inline;
+}
+
+select:hover,
+option:hover {
+    background-color: black;
+}
+
+.Calculadora button:hover {
+    background-color: rgba(2, 0, 36, 0.454);
+}

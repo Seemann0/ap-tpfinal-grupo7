@@ -1,0 +1,56 @@
+.formSeguros {
+    height: auto;
+    width: 60vh;
+    position: relative;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(155deg, rgba(2, 0, 36, 1) 35%, rgba(26, 144, 250, 1) 100%);
+    display: grid;
+    border-radius: 3%;
+    align-items: center;
+    justify-items: center;
+    padding: 5%;
+    border: rgb(69, 69, 123) solid;
+}
+
+.formSeguros th {
+    position: relative;
+    display: block;
+    /* th es un elemento que tiene por default display inline, por eso se pone el display block*/
+    margin-bottom: 1%;
+}
+
+.formSeguros input {
+    background-color: #fefeff24;
+    border-radius: 10%;
+    border-bottom-color: #0c8cfb80;
+    border-right-color: #0c8bfbb9;
+    border-left-color: #1a91fa51;
+    border-top-color: #1a91fa29;
+    margin-bottom: 10%;
+}
+
+.formSeguros select {
+    background-color: #0c8bfb70;
+    margin-bottom: 10%;
+    border-radius: 5%;
+}
+
+.formSeguros option {
+    background-color: #0f69b8de;
+}
+
+select:hover,
+option:hover {
+    background-color: black;
+}
+
+.formSeguros button {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(155deg, rgba(29, 25, 98, 0.671) 35%, rgb(2, 81, 154) 100%);   
+    border-color: #fefeff2d;
+    margin-bottom: 10%;
+}
+.formSeguros button:hover{
+    background-color: rgba(2, 0, 36, 0.454);
+}
+
